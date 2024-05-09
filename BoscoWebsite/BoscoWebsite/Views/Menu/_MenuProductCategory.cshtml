@@ -1,0 +1,66 @@
+﻿@model IEnumerable<BoscoWebsite.Models.EntityFrame.ProductCategory>
+
+@if (Model != null && Model.Any())
+{
+
+    <div class="banner">
+        <div class="container">
+            <div class="row">
+                @*@foreach (var item in Model)
+                {*@
+                    <div class="banner">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="banner_item align-items-center" style="background-image: url(Content/assets/images/ghe.jpg)">
+                                        <div class="banner_category">
+                                            <a href="/ghe-sofa/san-pham">Ghế Sofa</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="banner_item align-items-center" style="background-image: url(Content/assets/images/ban.jpg)">
+                                        <div class="banner_category">
+                                            <a href="/ban/san-pham">Bàn</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="banner_item align-items-center" style="background-image: url(Content/assets/images/giuong.jpg)">
+                                        <div class="banner_category">
+                                            <a href="/giuong/san-pham">Giường</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    @*<div class="col-md-4">
+                <div class="banner_item align-items-center" style="background-image: url(@item.Icon)">
+                    <div class="banner_category">
+                        <a href="@item.Alias">@item.Title</a>
+                    </div>
+                </div>
+            </div>*@
+               @*}*@
+
+                @*<div class="col-md-4">
+            <div class="banner_item align-items-center" style="background-image:url(images/banner_2.jpg)">
+                <div class="banner_category">
+                    <a href="categories.html">accessories's</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="banner_item align-items-center" style="background-image:url(images/banner_3.jpg)">
+                <div class="banner_category">
+                    <a href="categories.html">men's</a>
+                </div>
+            </div>
+        </div>*@
+            </div>
+        </div>
+    </div>
+}
